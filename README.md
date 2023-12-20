@@ -392,15 +392,11 @@ Pastaba: modalinis langas iššoka paspaudus „edit“ arba „delete“ mygtuk
 
 Pakankamai sumažėjus langui pasikeičia elementų išdėstymas, viršuje atsiranda navigacijos juosta, kurioje paspaudus tris horizontalias linijas iššoka navigacinis meniu.
 
-![A screenshot of a login box
-
-Description automatically generated](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.015.png)
+![](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.015.png)
 
 pav. 12. Prisijungimo langas
 
-![A screenshot of a login form
-
-Description automatically generated](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.016.png)
+![](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.016.png)
 
 pav. 13. Registracijos langas
 
@@ -412,69 +408,47 @@ pav. 14.  Pagridinis langas, be iššokusio navigacijos meniu
 
 ` `![](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.018.png)              
 
-![A black and white image of buildings
-
-Description automatically generated](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.019.png)
+![](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.019.png)
 
 pav. 15. Pagridinis langas, su iššokusiu navigacijos meniu
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.020.png)
+![](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.020.png)
 
 pav. 16.  Kontraktų peržiūros langas, be iššokusio navigacijos meniu
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.021.png)
+![](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.021.png)
 
 pav. 17.  Kontraktų peržiūros langas, su iššokusiu navigacijos meniu
 
-` `![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.022.png)
+![](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.022.png)
 
 pav. 18.  Įrašo informacijos keitimo modalinis langas
 
-` `![A white rectangular sign with black text
-
-Description automatically generated](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.023.png)
+![](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.023.png)
 
 pav. 19. Įrašo trynimo patvirtinimo modalinis langas
 
-` `![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.024.png)
+![](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.024.png)
 
 pav. 20. Sąskaitų peržiūros langas
 
-` `![A screenshot of a phone
-
-Description automatically generated](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.025.png)
+![](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.025.png)
 
 pav. 21. Įrašo lauko informacijos peržiūros langas langas
 
-![A screenshot of a phone
-
-Description automatically generated](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.026.png)
+![](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.026.png)
 
 pav. 22.  „Mobile view“ Pagrindinis langas, be iššokusio navigacijos meniu
 
-` `![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.027.png)
+![](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.027.png)
 
 pav. 23. „Mobile view“ Pagrindinis langas, su iššokusiu navigacijos meniu
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.028.png)
+![](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.028.png)
 
 pav. 24. „Mobile view“ įrašų peržiųros langas, su iššokusiu navigacijos meniu
 
-` `![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.029.png)
+![](Aspose.Words.2ef9e73c-3e45-48f3-b898-4ecd4437b9e6.029.png)
 
 pav. 25. „Mobile view“ langas, su iššokusiu įrašo informacijos keitimo modalinių langu
 
