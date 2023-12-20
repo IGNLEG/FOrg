@@ -1,0 +1,90 @@
+version: "3.7"
+
+services:
+    app:
+        build:
+            args:
+                user: forgadmin
+                uid: 1000
+            context: ./
+            dockerfile: Dockerfile
+        image: forg
+        container_name: forg-app
+        restart: unless-stopped
+        working_dir: /var/www/
+        volumes:
+            - ./:/var/www
+        networks:
+            - forg
+    mysql:
+        image: 'mysql/mysql-server:8.0'
+        container_name: forg-db
+        restart: unless-stopped
+        ports:
+            - '${FORWARD_DB_PORT:-3306}:3306'
+        environment:
+            MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
+            MYSQL_ROOT_HOST: '%'
+            MYSQL_DATABASE: '${DB_DATABASE}'
+            MYSQL_USER: '${DB_USERNAME}'
+            MYSQL_PASSWORD: '${DB_PASSWORD}'
+            MYSQL_ALLOW_EMPTY_PASSWORD: 1
+        volumes:
+            - 'mysql:/var/lib/mysql'
+        networks:
+            - forg
+    redis:
+        image: 'redis:alpine'
+        ports:
+            - '${FORWARD_REDIS_PORT:-6379}:6379'
+        volumes:
+            - 'redis:/data'
+        networks:
+            - forg
+    meilisearch:
+        image: 'getmeili/meilisearch:latest'
+        ports:
+            - '${FORWARD_MEILISEARCH_PORT:-7700}:7700'
+        environment:
+            MEILI_NO_ANALYTICS: '${MEILISEARCH_NO_ANALYTICS:-false}'
+        volumes:
+            - 'meilisearch:/meili_data'
+        networks:
+            - forg
+    mailpit:
+        image: 'axllent/mailpit:latest'
+        ports:
+            - '${FORWARD_MAILPIT_PORT:-1025}:1025'
+            - '${FORWARD_MAILPIT_DASHBOARD_PORT:-8025}:8025'
+        networks:
+            - forg
+    selenium:
+        image: selenium/standalone-chrome
+        extra_hosts:
+            - 'host.docker.internal:host-gateway'
+        volumes:
+            - '/dev/shm:/dev/shm'
+        networks:
+            - forg
+    nginx:
+        image: nginx:alpine
+        container_name: forg-nginx
+        restart: unless-stopped
+        ports:
+            - "80:80"
+        volumes:
+            - ./:/var/www
+            - ./docker-compose/nginx:/etc/nginx/conf.d/
+        networks:
+            - forg
+networks:
+    forg:
+        driver: bridge
+
+volumes:
+    forg-mysql:
+        driver: local
+    forg-redis:
+        driver: local
+    forg-meilisearch:
+        driver: local
